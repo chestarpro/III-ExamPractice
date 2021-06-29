@@ -6,11 +6,9 @@ public class Person {
     private String surname;
     private String name;
     private String patronymic;
-    private int id;
+    private final int id;
 
     private static int count;
-
-    public Person() { }
 
     public Person(String surname, String name, String patronymic) {
         this.surname = surname;
@@ -46,10 +44,6 @@ public class Person {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     @Override
