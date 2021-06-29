@@ -12,13 +12,13 @@ import com.company.spherical.TennisBall;
 public class Main {
 
     public static void main(String[] args) {
-        Spherical[] apples = new Apple[20];
+        Apple[] apples = new Apple[20];
         for (int i = 0; i < apples.length; i++) {
             apples[i] = new Apple();
         }
         Backpack backpack1 = new Backpack(apples, new Book("Jamila", "Chyngyz Aitmatov"), new Bottle(new CocaCola()));
 
-        Spherical[] tennisBalls = new TennisBall[50];
+        TennisBall[] tennisBalls = new TennisBall[50];
         for (int i = 0; i < tennisBalls.length; i++) {
             tennisBalls[i] = new TennisBall();
         }
